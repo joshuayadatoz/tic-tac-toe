@@ -55,7 +55,7 @@ conn.onmessage = function(e) {
 };
 
 function prepareGame(data) {
-
+    clearCells();
     document.getElementById('gameSetup').classList.add('hidden');
     document.getElementById('gameBoard').classList.remove('hidden');
     document.getElementById('turnIndicator').classList.remove('hidden');
@@ -72,11 +72,17 @@ function resetGameUI() {
     document.getElementById('playAgainButton').classList.add('hidden');
     document.getElementById('resetButton').classList.add('hidden');
 }
-
-function enableCells() {
+function clearCells() {
     const cells = document.querySelectorAll('.cell');
     cells.forEach(cell => {
         cell.textContent = '';
+    });
+}
+function enableCells() {
+
+    clearCells();
+    const cells = document.querySelectorAll('.cell');
+    cells.forEach(cell => {
         cell.setAttribute('onclick', 'makeMove(this.dataset.index)');
     });
 }
