@@ -55,7 +55,7 @@ conn.onmessage = function(e) {
 };
 
 function prepareGame(data) {
-    enableCells();
+
     document.getElementById('gameSetup').classList.add('hidden');
     document.getElementById('gameBoard').classList.remove('hidden');
     document.getElementById('turnIndicator').classList.remove('hidden');
