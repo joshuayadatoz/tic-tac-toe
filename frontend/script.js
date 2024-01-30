@@ -1,4 +1,7 @@
-const conn = new WebSocket('ws://localhost:8080');
+
+//check server ip address
+const wsAddress = (window.location.hostname === 'localhost') ? 'ws://localhost:8080' : 'ws://51.20.189.65:8080';
+const conn = new WebSocket(wsAddress);
 
 conn.onopen = function(e) {
     console.log("Connection established!");
