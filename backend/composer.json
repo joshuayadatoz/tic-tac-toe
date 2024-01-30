@@ -1,0 +1,19 @@
+{
+    "name": "joshua/tic-tac-toe",
+    "description": "A tic tac toe game",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "TTT\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Joshua Adatoz",
+            "email": "joshuadatoz@gmail.com"
+        }
+    ],
+    "require": {
+        "cboden/ratchet": "^0.4.4"
+    }
+}
