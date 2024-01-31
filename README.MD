@@ -12,7 +12,7 @@ Live demo can be accessed on http://51.20.189.65/tic-tac-toe/frontend/
 
 
 ## Project Structure
-
+```
 tic-tac-toe/
 │
 ├── backend/ # Backend source files
@@ -31,7 +31,7 @@ tic-tac-toe/
 │ └── style.scss # SCSS source file
 │
 └── .gitignore # Specifies intentionally untracked files to ignore
-
+```
 
 ## Setup Instructions
 
