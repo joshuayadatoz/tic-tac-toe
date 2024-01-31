@@ -2,6 +2,8 @@
 
 This project is a web-based Tic Tac Toe game that enables two players to create, join, and play a game remotely from each other. The game is built with real-time communication using PHP WebSockets, and a basic HTML frontend that compiles SCSS to CSS for styling.
 
+Live demo can be accessed on http://51.20.189.65/tic-tac-toe/frontend/
+
 ## Prerequisites
 
 - PHP 8.0 or higher
